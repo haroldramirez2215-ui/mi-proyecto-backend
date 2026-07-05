@@ -1,5 +1,7 @@
 import express from "express";
-
+import clientesRoutes from "./routes/clientes.routes.js";
+import medicamentosRoutes from "./routes/medicamentos.routes.js";
+import movimientosRoutes from "./routes/movimientos.routes.js";
 const app = express();
 
 app.use(express.json());
