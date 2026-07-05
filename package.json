@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "SET NODE_ENV=development && node index.js",
-    "start": "SET NODE_ENV=production && node index.js",
+    "start": "node index.js",
     "dev:watch": "SET NODE_ENV=development && node --watch index.js"
   },
   "author": "PharmaTo-do",
