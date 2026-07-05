@@ -9,7 +9,7 @@ const app = express();
 
 import authRoutes from "./routes/auth.js";
 app.use(cors());
-
+  origin: "*"
 app.use(express.json());
 
 app.use("/api/clientes", clientesRoutes);
@@ -20,6 +20,7 @@ app.use("/auth", authRoutes);
 app.get("/", (req, res) => {
   res.json({
     mensaje: "API PharmaTo-do funcionando correctamente"
+
   });
 });
 
