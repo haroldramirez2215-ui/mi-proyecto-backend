@@ -1,0 +1,115 @@
+{
+  "info": {
+    "_postman_id": "c2373214-25e9-465d-aa35-b4e39cc2044d",
+    "name": "PharmaTo-do API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "55552163",
+    "_collection_link": "https://go.postman.co/collection/55552163-c2373214-25e9-465d-aa35-b4e39cc2044d?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "clientes",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/clientes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "clientes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Clientes",
+      "request": {
+        "method": "POST",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "clientes",
+      "request": {
+        "method": "PATCH",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "clientes",
+      "request": {
+        "method": "DELETE",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "movimientos",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "basic"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/movimientos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "movimientos"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "medicamentos",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "auth": {
+          "type": "basic"
+        },
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": ""
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/medicamentos",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "medicamentos"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
