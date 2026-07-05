@@ -7,16 +7,15 @@ import movimientosRoutes from "./routes/movimientos.routes.js";
 
 const app = express();
 
-// Habilitar CORS
+import authRoutes from "./routes/auth.js";
 app.use(cors());
 
-// Leer JSON
 app.use(express.json());
 
-// Rutas
 app.use("/api/clientes", clientesRoutes);
 app.use("/api/medicamentos", medicamentosRoutes);
 app.use("/api/movimientos", movimientosRoutes);
+app.use("/auth", authRoutes);
 
 app.get("/", (req, res) => {
   res.json({
